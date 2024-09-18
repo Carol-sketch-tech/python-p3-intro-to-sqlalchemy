@@ -1,0 +1,24 @@
+objectives.
+    1. to use an external library to simplify tasks from earlier ORM lessons.
+    2. Mange database tables and schemas withour ever wrtint SQL through Alembic.
+    Use SQLAchemy to create, read updata and delete records in a SQL database.
+
+
+Terms 
+    1. Schema is the blueprint of a databse.
+    describes how data relates to other data tables, columns and relationshipds between them.
+    2. Persist - save a schema in a database.
+    3. Engine - A python object that transaletes SQL to python and vice-versa.
+    4. session - a ptyhon object that uses an engine to allow us to programatically interact with a databse
+    5. Trasaction - a strategy for exectuting databse statements such that the groupsucceeds or fails as a unit.
+    6. Migrations - the process of moving data from one or more database to one or more taret databases.
+
+leaning ORMs and using sqlite3 and OOP in python to build tools that map python classes to databases tables is very useful 
+but has limitations.
+    1.It only works with one type of SQL dabase sqlite3
+    2. It only create the funcitonality that we needed for several classes.
+    3. We wont know how other groups' ORMs work.
+    4. Others wont know how our ORM  works.
+
+    SQLAlchemy is a popular python ORM.
+
